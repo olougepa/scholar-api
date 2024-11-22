@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8" pages="6">
   <diagram name="API Authorization Workflow" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1290" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -154,6 +154,22 @@
         <mxCell id="NtMeLeSK6e6f0Zuwd-f8-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;page: &amp;lt;integer&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;limit: &amp;lt;integer&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;.....&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f4bsjoadZ6QAuKkfZ0DT" name="Read All Students Workflow">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ug_ClDM_iHiaUQ_eiX3w" name="Login API User">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
