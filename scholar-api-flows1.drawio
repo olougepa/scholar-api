@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8" pages="10">
   <diagram name="API Authorization Workflow" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,11 +46,14 @@
         <mxCell id="a9DbzknfABg3CO3c4izA-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;username&lt;font color=&quot;#ff3333&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;password&lt;font color=&quot;#ff3333&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="95" y="170" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="rKCykYg0tVlBZSXzHJV4-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Retrieve Authorization Access Token with Username and Hash of password&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made parsing username and hash of password (copy from account API credentials section of the platform) and a JSON response will be received carrying the full details of the API user&#39;s account. In bold and red asterix (*) are the details the API user will need in order to make subsequent calls to the API.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-140" width="450" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ECu25wGtG2FX_dT37s7n" name="All Schools For Search Workflow">
-    <mxGraphModel dx="1290" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,6 +84,9 @@
         </mxCell>
         <mxCell id="95VnxqthYn9yE4kgcBrR-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;empty&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="92" y="170" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaUq--5V6Sluroh2ZZZN-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information on all schools on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made parsing username and hash of password (copy from account API credentials section of the platform) and a JSON response will be received carrying the full details of the API user&#39;s account. In bold and red asterix (*) are the details the API user will need in order to make subsequent calls to the API.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-170" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
