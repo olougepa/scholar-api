@@ -85,7 +85,7 @@
         <mxCell id="95VnxqthYn9yE4kgcBrR-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;empty&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="92" y="170" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DaUq--5V6Sluroh2ZZZN-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information on all schools on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made parsing username and hash of password (copy from account API credentials section of the platform) and a JSON response will be received carrying the full details of the API user&#39;s account. In bold and red asterix (*) are the details the API user will need in order to make subsequent calls to the API.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DaUq--5V6Sluroh2ZZZN-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information on all schools on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made, and a JSON response carrying the full details of all schools on Scholar will be received. This is suitable in cases of dropdowns from which users can pick a school. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="-170" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
@@ -124,14 +124,14 @@
         <mxCell id="IzguN7jgjwD6w9Kdx2iB-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="92" y="170" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ObzSNeus6PyAZt_HlRoH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about a single school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made parsing username and hash of password (copy from account API credentials section of the platform) and a JSON response will be received carrying the full details of the API user&#39;s account. In bold and red asterix (*) are the details the API user will need in order to make subsequent calls to the API.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ObzSNeus6PyAZt_HlRoH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about a single school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the ID of a selected school, and a JSON response carrying the full details of a single school on Scholar will be received. This is suitable in cases where a school has been selected from dropdowns. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="-130" width="580" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7O3IxwIIqnX3vCwL91l2" name="All School Instances (Configuration)">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,11 +163,14 @@
         <mxCell id="NtMeLeSK6e6f0Zuwd-f8-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;page: &amp;lt;integer&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;limit: &amp;lt;integer&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;.....&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="p-ZM6Nocfo3-1iFv0Md9-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about primary setups of schools on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the access_token, URL, and optional parameters, and a JSON response carrying the full details of the primary registration of all or filtered schools on Scholar will be received. This is suitable for further use in other calls or determining if a school is still active or suspended for either billing issues or they stopped using Scholar. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-130" width="690" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="f4bsjoadZ6QAuKkfZ0DT" name="Read All Students Workflow">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,14 +199,17 @@
         <mxCell id="9zBWznDFNILx4vdX-ae1-7" value=":API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="512" y="80" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9zBWznDFNILx4vdX-ae1-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="9zBWznDFNILx4vdX-ae1-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url&lt;font color=&quot;#ff6666&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sPKLLFSiwGigpYWP4sI-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about all students of a school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the access_token, and URL of the school, and a JSON response carrying a list of students in that school. The list will contain details of all students from the date the school started using Scholar to date. This is suitable for further use in statistics of the number of students who have been managed by Scholar for example. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token. The result will carry, biographic data (profile array), a photo of the student if any, a school/faculty (array with full details of the school/faculty) the student belongs to, a department array with full details of the department, program array with full details of the program the student is taking and level array holding full details of the student&#39;s current level.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-130" width="690" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="All Active Students Workflow" id="nGY-gVjVECQQsb77-xf-">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="GByM75LyRAlCaGHOU-RH-0" />
         <mxCell id="GByM75LyRAlCaGHOU-RH-1" parent="GByM75LyRAlCaGHOU-RH-0" />
@@ -232,14 +238,17 @@
         <mxCell id="GByM75LyRAlCaGHOU-RH-8" value=":API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GByM75LyRAlCaGHOU-RH-1">
           <mxGeometry x="512" y="80" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GByM75LyRAlCaGHOU-RH-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="GByM75LyRAlCaGHOU-RH-1">
+        <mxCell id="GByM75LyRAlCaGHOU-RH-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url&lt;font color=&quot;#ff6666&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="GByM75LyRAlCaGHOU-RH-1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RWEJ1uAvNrbqzwZjTGT9-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about all ACTIVE students of a school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the access_token, and URL of the school, and a JSON response carrying a list of &lt;b&gt;ACTIVE&lt;/b&gt; &lt;b&gt;students&lt;/b&gt; in that school. The list will contain details of all &lt;b&gt;ACTIVE students&lt;/b&gt; from the date the school started using Scholar to date. This is suitable for further use in statistics of the number of ACTIVE students who have been managed by Scholar for example or billing purposes. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token. The result will carry, biographic data (profile array), a photo of the student if any, a school/faculty (array with full details of the school/faculty) the student belongs to, a department array with full details of the department, program array with full details of the program the student is taking and level array holding full details of the student&#39;s current level.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="GByM75LyRAlCaGHOU-RH-1">
+          <mxGeometry x="40" y="-130" width="770" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="All Graduated Students Workflow" id="1Uip2MgUti3D3HdOJAtI">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="cEUuBGidD7M8XPfVVbbY-0" />
         <mxCell id="cEUuBGidD7M8XPfVVbbY-1" parent="cEUuBGidD7M8XPfVVbbY-0" />
@@ -271,11 +280,14 @@
         <mxCell id="cEUuBGidD7M8XPfVVbbY-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="cEUuBGidD7M8XPfVVbbY-1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="_9E0Nt6E6E5FK3lyLRX9-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about all GRADUATED students of a school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the access_token, and URL of the school, and a JSON response carrying a list of &lt;b&gt;GRADUATED&lt;/b&gt;&amp;nbsp;&lt;b&gt;students&lt;/b&gt; in that school. The list will contain details of all &lt;b&gt;GRADUATED&amp;nbsp;students&lt;/b&gt; from the date the school started using Scholar to date. This is suitable for further use in statistics of the number of GRADUATED students who have been managed by Scholar for example. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token. The result will carry, biographic data (profile array), a photo of the student if any, a school/faculty (array with full details of the school/faculty) the student belongs to, a department array with full details of the department, program array with full details of the program the student is taking and level array holding full details of the student&#39;s current level.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cEUuBGidD7M8XPfVVbbY-1">
+          <mxGeometry x="10" y="-130" width="830" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="All Archived Students Workflow" id="VudzBVA_wVehKT0Mh0ij">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="qMH118Tl1AOPQWZZn-a7-0" />
         <mxCell id="qMH118Tl1AOPQWZZn-a7-1" parent="qMH118Tl1AOPQWZZn-a7-0" />
@@ -307,11 +319,14 @@
         <mxCell id="qMH118Tl1AOPQWZZn-a7-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="qMH118Tl1AOPQWZZn-a7-1">
           <mxGeometry x="92" y="170" width="150" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="KxSM8SOilEC_y7Qp2998-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information about all ARCHIVED students of a school on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A GET request is made by parsing the access_token, and URL of the school, and a JSON response carrying a list of &lt;b&gt;ARCHIVED students&lt;/b&gt; in that school. The list will contain details of all&amp;nbsp;&lt;b&gt;ARCHIVED students&lt;/b&gt; from the date the school started using Scholar to date. This is suitable for further use in statistics of the number of ARCHIVED students who have been managed by Scholar for example. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token. The result will carry, biographic data (profile array), a photo of the student if any, a school/faculty (array with full details of the school/faculty) the student belongs to, a department array with full details of the department, program array with full details of the program the student is taking and level array holding full details of the student&#39;s current level.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="qMH118Tl1AOPQWZZn-a7-1">
+          <mxGeometry x="10" y="-130" width="830" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ug_ClDM_iHiaUQ_eiX3w" name="Login Student User">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -342,6 +357,9 @@
         </mxCell>
         <mxCell id="qiNcImXnk1hLRE3ixRpf-8" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;(QUERY)&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;access_token&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;url: &amp;lt;string&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;body (POST)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;username:&amp;nbsp; &amp;lt;string&amp;gt; password: &amp;lt;string&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="170" width="202" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q4tr5VigKgHmKefmCRAh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Authenticate a student on Scholar and retrieve auth_key for subsequent calls involving that student&#39;s data on a school instance&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made by parsing the access_token, and URL of the school, and a JSON response carrying a list of &lt;b&gt;ARCHIVED students&lt;/b&gt; in that school. The list will contain details of all&amp;nbsp;&lt;b&gt;ARCHIVED students&lt;/b&gt; from the date the school started using Scholar to date. This is suitable for further use in statistics of the number of ARCHIVED students who have been managed by Scholar for example. The details the API user will need in bold and red asterisk (*) are the details the API user will need to make subsequent calls to the API. This request does not require an authorization token. The result will carry, biographic data (profile array), a photo of the student if any, a school/faculty (array with full details of the school/faculty) the student belongs to, a department array with full details of the department, program array with full details of the program the student is taking and level array holding full details of the student&#39;s current level.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-149" width="830" height="219" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
