@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZTYQJOVKuNAQBvyYniN2" name="Select School Workflow">
-    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="IzguN7jgjwD6w9Kdx2iB-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;payload (QUERY)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;id&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;: &amp;lt;string&amp;gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="92" y="170" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ObzSNeus6PyAZt_HlRoH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Get Information on all schools on Scholar&lt;/u&gt;&lt;/h1&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Workflow Description&lt;/h2&gt;&lt;p&gt;A POST request is made parsing username and hash of password (copy from account API credentials section of the platform) and a JSON response will be received carrying the full details of the API user&#39;s account. In bold and red asterix (*) are the details the API user will need in order to make subsequent calls to the API.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-130" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
